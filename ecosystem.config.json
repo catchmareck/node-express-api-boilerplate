@@ -1,0 +1,12 @@
+{
+  "apps" : [{
+    "name"        : "dummy-api",
+    "script"      : "./index.js",
+    "node_args"   : "--perf-basic-prof",
+    "timestamp"   : "",
+    "env": {
+      "NODE_ENV": "dev"
+    },
+    "log_date_format" : "|"
+  }]
+}

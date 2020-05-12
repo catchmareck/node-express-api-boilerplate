@@ -1,0 +1,27 @@
+{
+  "name": "node-express-api-boilerplate",
+  "version": "1.0.0",
+  "description": "I always do it the same way. I don't want to waste my time on this anymore ;_;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catchmareck/node-express-api-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catchmareck/node-express-api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/catchmareck/node-express-api-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "winston": "^3.2.1"
+  }
+}
