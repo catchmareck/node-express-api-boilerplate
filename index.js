@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const { port } = require('./config');
-const logger = require('./utils/logger');
+const logger = require('./utils/logger')('index');
 
 const routes = require('./routes');
 
